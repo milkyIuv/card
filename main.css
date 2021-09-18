@@ -1,0 +1,33 @@
+html {
+    background: #edfaff;
+    -webkit-font-smoothing: antialiased;
+}
+
+body {
+    background: transparent;
+    color: #757575;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: auto;
+    max-width: 320px;
+    padding: 2em 2em 4em;
+}
+
+
+.article {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+    
+}
+
+.content {
+  font-size: 0.7rem;
+  line-height: 1.5rem;
+  padding: 2rem;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.03);
+  background: white;
+    text-align: justify;
+}
